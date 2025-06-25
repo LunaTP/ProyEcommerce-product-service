@@ -1,6 +1,10 @@
 plugins {
 	id 'java'
+<<<<<<< HEAD
 	id 'org.springframework.boot' version '3.2.5'
+=======
+	id 'org.springframework.boot' version '3.5.0'
+>>>>>>> 34c18b26352eb30d0e07102839938f57cd2d8d37
 	id 'io.spring.dependency-management' version '1.1.7'
 }
 
@@ -24,7 +28,11 @@ repositories {
 }
 
 ext {
+<<<<<<< HEAD
 	set('springCloudVersion', "2023.0.1")
+=======
+	set('springCloudVersion', "2025.0.0")
+>>>>>>> 34c18b26352eb30d0e07102839938f57cd2d8d37
 }
 
 dependencies {
