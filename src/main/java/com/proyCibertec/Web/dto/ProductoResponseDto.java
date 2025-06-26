@@ -8,7 +8,6 @@ public class ProductoResponseDto {
     private Double precio;
     private Integer stock;
 
-    // Constructor vacío (OBLIGATORIO para Jackson)
     public ProductoResponseDto() {}
 
     public ProductoResponseDto(Integer id, String nombre, String descripcion, Double precio, Integer stock) {

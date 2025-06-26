@@ -3,12 +3,12 @@ server:
 
 spring:
   application:
-    name: productos-service
+    name: product-service
 
   datasource:
     url: jdbc:mysql://localhost:3306/bd_dawii_ms_product
     username: root
-    password: 1234567
+    password: 12345678
 
   jpa:
     hibernate:

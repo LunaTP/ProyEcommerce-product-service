@@ -2,18 +2,17 @@ package com.proyCibertec.Web.controller;
 
 import com.proyCibertec.Web.dto.ProductoResponseDto;
 import com.proyCibertec.Aplication.service.ProductoService;
+import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+
 @RestController
-@RequestMapping("/")
+@RequestMapping("/api/productos")
+@RequiredArgsConstructor
 public class ProductoController {
 
     private final ProductoService productoService;
-
-    public ProductoController(ProductoService productoService) {
-        this.productoService = productoService;
-    }
 
     @GetMapping
     public List<ProductoResponseDto> listarTodos() {
